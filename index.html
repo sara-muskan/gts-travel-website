@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GTS — Go There. See Everything.</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700;800&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet"  href="css/style.css">
+
+
+</head>
+<body>
+
+<header>
+  <nav>
+    <a href="#" class="logo">GTS<span class="dot">.</span></a>
+    <div class="nav-links">
+      <a href="#destinations">Destinations</a>
+      <a href="#packages">Packages</a>
+      <a href="#why">Why GTS</a>
+      <a href="#testimonials">Stories</a>
+      <a href="#contact">Contact</a>
+    </div>
+    <a href="#packages" class="nav-cta">Book a trip</a>
+    <button class="burger" id="burgerBtn" aria-label="Open menu"><span></span><span></span><span></span></button>
+  </nav>
+  <div class="mobile-menu" id="mobileMenu">
+    <a href="#destinations">Destinations</a>
+    <a href="#packages">Packages</a>
+    <a href="#why">Why GTS</a>
+    <a href="#testimonials">Stories</a>
+    <a href="#contact">Contact</a>
+  </div>
+</header>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="wrap">
+    <div class="hero-grid">
+      <div>
+        <div class="eyebrow">Global Travel Services</div>
+        <h1>Go there.<br><em>See</em> everything.</h1>
+        <p class="lead">GTS plans the routes, books the stays, and hands you a trip worth telling stories about — from weekend escapes to month-long expeditions.</p>
+        <div class="hero-ctas">
+          <a href="#packages" class="btn-primary">Explore packages</a>
+          <a href="#destinations" class="btn-ghost">See destinations</a>
+        </div>
+      </div>
+
+      <div class="route-map">
+        <svg viewBox="0 0 360 380">
+          <path class="route-path" d="M 40 330 C 100 260, 60 180, 140 140 S 260 60, 320 40"></path>
+          <g class="route-pin">
+            <circle cx="40" cy="330" r="7" fill="#D89B3C"/>
+            <circle cx="40" cy="330" r="12" fill="none" stroke="#D89B3C" stroke-width="1.4" opacity="0.5"/>
+          </g>
+          <text class="route-label" x="54" y="335">KARACHI</text>
+
+          <g class="route-pin">
+            <circle cx="140" cy="140" r="7" fill="#C7482F"/>
+            <circle cx="140" cy="140" r="12" fill="none" stroke="#C7482F" stroke-width="1.4" opacity="0.5"/>
+          </g>
+          <text class="route-label" x="154" y="145">ISTANBUL</text>
+
+          <g class="route-pin">
+            <circle cx="320" cy="40" r="7" fill="#2F6F63"/>
+            <circle cx="320" cy="40" r="12" fill="none" stroke="#2F6F63" stroke-width="1.4" opacity="0.5"/>
+          </g>
+          <text class="route-label" x="230" y="30">REYKJAVIK</text>
+        </svg>
+      </div>
+    </div>
+
+    <div class="search-bar">
+      <div class="search-field">
+        <label>From</label>
+        <input type="text" placeholder="Peshawar, PK" value="Peshawar, PK">
+      </div>
+      <div class="search-field">
+        <label>Going to</label>
+        <input type="text" placeholder="Where next?">
+      </div>
+      <div class="search-field">
+        <label>When</label>
+        <input type="text" placeholder="Pick dates">
+      </div>
+      <button type="button">Search routes</button>
+    </div>
+  </div>
+</section>
+
+<!-- ============ DESTINATIONS ============ -->
+<section class="pad" id="destinations">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Popular routes</div>
+        <h2>Where GTS travellers<br>are headed this season</h2>
+      </div>
+      <p>Hand-picked destinations across four continents, each with a route already mapped out for you.</p>
+    </div>
+
+    <div class="dest-grid">
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1502602898657-3e91760cbb34?q=80&w=800&auto=format&fit=crop" alt="Santorini, Greece">
+        <div class="dest-info">
+          <div class="country">Greece</div>
+          <h3>Santorini</h3>
+          <div class="price">Starting from <b>PKR 185,000</b></div>
+        </div>
+      </div>
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1524231757912-21f4fe3a7200?q=80&w=800&auto=format&fit=crop" alt="Istanbul, Turkey">
+        <div class="dest-info">
+          <div class="country">Turkey</div>
+          <h3>Istanbul</h3>
+          <div class="price">Starting from <b>PKR 95,000</b></div>
+        </div>
+      </div>
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1540541338287-41700207dee6?q=80&w=800&auto=format&fit=crop" alt="Reykjavik, Iceland">
+        <div class="dest-info">
+          <div class="country">Iceland</div>
+          <h3>Reykjavik</h3>
+          <div class="price">Starting from <b>PKR 240,000</b></div>
+        </div>
+      </div>
+      <div class="dest-card">
+        <img src="https://images.unsplash.com/photo-1512453979798-5ea266f8880c?q=80&w=800&auto=format&fit=crop" alt="Bali, Indonesia">
+        <div class="dest-info">
+          <div class="country">Indonesia</div>
+          <h3>Bali</h3>
+          <div class="price">Starting from <b>PKR 130,000</b></div>
+        </div>
+      </div>
+      <div class="dest-card">
+        <img src="https://www.pakvoyager.com/uploads/0000/18/2022/02/10/hunza-valley-travel-guide.jpg" alt="Hunza Valley, Pakistan">
+        <div class="dest-info">
+          <div class="country">Pakistan</div>
+          <h3>Hunza Valley</h3>
+          <div class="price">Starting from <b>PKR 45,000</b></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY GTS ============ -->
+<section class="pad why" id="why">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Why travellers pick GTS</div>
+        <h2>Every trip, mapped<br>before you pack</h2>
+      </div>
+      <p>No guesswork, no hidden charges — just a route, a price, and a team on call.</p>
+    </div>
+
+    <div class="feat-grid">
+      <div class="feat">
+        <div class="num">01</div>
+        <h3>Fixed, transparent pricing</h3>
+        <p>The price you see on the package is the price you pay — flights, stays, and local transport included.</p>
+      </div>
+      <div class="feat">
+        <div class="num">02</div>
+        <h3>Local route experts</h3>
+        <p>Every itinerary is built by someone who has actually walked that route, not a generic template.</p>
+      </div>
+      <div class="feat">
+        <div class="num">03</div>
+        <h3>24/7 on-trip support</h3>
+        <p>A real person on call for the length of your trip — for delays, changes, or just directions.</p>
+      </div>
+      <div class="feat">
+        <div class="num">04</div>
+        <h3>Flexible rebooking</h3>
+        <p>Plans change. Move your dates once, free, up to 7 days before departure.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ PACKAGES ============ -->
+<section class="pad" id="packages">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Ready-made itineraries</div>
+        <h2>Pick a route, or<br>let us build yours</h2>
+      </div>
+      <p>Every package below is fully bookable, or use it as a starting point for a custom trip.</p>
+    </div>
+
+    <div class="pkg-grid">
+      <div class="pkg-card">
+        <div class="pkg-tag">Weekend</div>
+        <h3>Northern Escape</h3>
+        <div class="pkg-days">4 days · Hunza & Skardu</div>
+        <div class="pkg-price">PKR 45k<span>/person</span></div>
+        <ul class="pkg-list">
+          <li>Return flights + private transport</li>
+          <li>3 nights boutique stay</li>
+          <li>Local guide included</li>
+          <li>Daily breakfast</li>
+        </ul>
+        <a href="#contact" class="pkg-btn">Choose this route</a>
+      </div>
+
+      <div class="pkg-card featured">
+        <div class="pkg-tag">Most booked</div>
+        <h3>Istanbul & Cappadocia</h3>
+        <div class="pkg-days">7 days · Turkey</div>
+        <div class="pkg-price">PKR 165k<span>/person</span></div>
+        <ul class="pkg-list">
+          <li>Return international flights</li>
+          <li>6 nights, 2 cities</li>
+          <li>Hot air balloon ride</li>
+          <li>Airport transfers + local SIM</li>
+          <li>English/Urdu speaking guide</li>
+        </ul>
+        <a href="#contact" class="pkg-btn">Choose this route</a>
+      </div>
+
+      <div class="pkg-card">
+        <div class="pkg-tag">Extended</div>
+        <h3>Bali Deep Dive</h3>
+        <div class="pkg-days">10 days · Indonesia</div>
+        <div class="pkg-price">PKR 210k<span>/person</span></div>
+        <ul class="pkg-list">
+          <li>Return flights + visa handling</li>
+          <li>9 nights across 3 regions</li>
+          <li>Scuba intro session</li>
+          <li>Private driver on call</li>
+        </ul>
+        <a href="#contact" class="pkg-btn">Choose this route</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ TESTIMONIALS ============ -->
+<section class="pad" id="testimonials">
+  <div class="wrap">
+    <div class="section-head">
+      <div>
+        <div class="eyebrow">Traveller stories</div>
+        <h2>Routes GTS has<br>already walked</h2>
+      </div>
+      <p>Real trips, booked and completed through GTS in the last season.</p>
+    </div>
+
+    <div class="testi-track">
+      <div class="testi-card">
+        <p class="testi-quote">"Humne last minute Hunza trip book ki thi, GTS ne guide se lekar hotel tak sab kuch sort kar diya. Bilkul stress-free trip thi."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">A</div>
+          <div>
+            <div class="testi-name">Ayesha R.</div>
+            <div class="testi-trip">Northern Escape · Hunza</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">"The Istanbul package covered literally everything they promised. The balloon ride at sunrise alone was worth the trip."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">F</div>
+          <div>
+            <div class="testi-name">Faisal K.</div>
+            <div class="testi-trip">Istanbul & Cappadocia</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">"Support team was available even at 2am jab hamari flight delay hui thi. Rebooking free of cost ho gayi, koi hassle nahi."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">S</div>
+          <div>
+            <div class="testi-name">Sana M.</div>
+            <div class="testi-trip">Bali Deep Dive</div>
+          </div>
+        </div>
+      </div>
+      <div class="testi-card">
+        <p class="testi-quote">"Custom itinerary banwayi thi Iceland ke liye, unki team ne har cheez timeline ke sath map kar di thi. Highly recommended."</p>
+        <div class="testi-person">
+          <div class="testi-avatar">H</div>
+          <div>
+            <div class="testi-name">Hamza T.</div>
+            <div class="testi-trip">Custom · Reykjavik</div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ CTA BAND ============ -->
+<div class="cta-band" id="contact">
+  <h2>Get route ideas and fare drops in your inbox, before they trend.</h2>
+  <form class="cta-form" onsubmit="event.preventDefault(); alert('Thanks — you are subscribed (demo only).');">
+    <input type="email" placeholder="you@email.com" required>
+    <button type="submit">Notify me</button>
+  </form>
+</div>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <div class="foot-logo">GTS.</div>
+        <p>Global Travel Services — we plan the route, you take the trip. Based in Peshawar, booking journeys worldwide since day one.</p>
+      </div>
+      <div class="foot-col">
+        <h4>Explore</h4>
+        <a href="#destinations">Destinations</a>
+        <a href="#packages">Packages</a>
+        <a href="#why">Why GTS</a>
+        <a href="#testimonials">Stories</a>
+      </div>
+      <div class="foot-col">
+        <h4>Company</h4>
+        <a href="#">About us</a>
+        <a href="#">Careers</a>
+        <a href="#">Partner with GTS</a>
+      </div>
+      <div class="foot-col">
+        <h4>Get in touch</h4>
+        <a href="tel:+920000000000">+92 000 0000000</a>
+        <a href="mailto:hello@gts.travel">hello@gts.travel</a>
+        <a href="#">Peshawar, Pakistan</a>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      <span>© 2026 GTS — Global Travel Services. All rights reserved.</span>
+      <span>Frontend demo · No backend connected</span>
+    </div>
+  </div>
+</footer>
+
+        <script src="js/js.js"></script>
+</body>
+</html>
