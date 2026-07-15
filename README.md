@@ -65,8 +65,14 @@ The website is optimized for:
 gts-travel-website/
 │
 ├── index.html
+└── css/
+│     │
+│    style.css
+└── js/
+│      │
+│     js.js
 ├── README.md
-└── assets/
+└
 ```
 
 ---
