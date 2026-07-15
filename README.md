@@ -4,9 +4,7 @@ A modern, responsive travel agency landing page built with pure HTML, CSS, and J
 
 ## 🚀 Live Demo
 
-Add your GitHub Pages link here:
-
-https://yourusername.github.io/gts-travel-website/
+https://sara-muskan.github.io/gts-travel-website/
 
 ---
 
